@@ -1,0 +1,231 @@
+﻿
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/*header*/
+.container, .logo, .logo2 ,.navbar.navbar-inverse{
+    height : 100px; 
+
+}
+
+.logo{
+    background-color: #25AAE2;
+
+    width:300px;
+
+}
+
+.logo2 {
+ background-color: #7CCCED; 
+     width:150px;
+
+}
+
+.logo3{
+    background-color: #6D6E72; 
+
+}
+
+footer{
+      position:fixed;
+      width:100%;
+      bottom:0px;
+     height :70px;
+      background-color:#3A3A3C;
+}
+
+footer h1{
+    font-weight:bold;
+   padding:20px;
+      text-align:center;
+  font-size: 20px;
+    color:#fff;
+    font-family: 'quadonmedium';
+}
+
+.jumbotron{
+     text-align:center;
+     background-color:  #F7941D;
+}
+
+.jumbotron h1 , .jumbotron p, .jumbotron h3{
+     text-align:center;
+
+}
+
+.jumbotron p{
+    
+    width:70%;
+    margin-left: auto;
+margin-right: auto;
+
+  
+}
+
+.jumbotron h3{
+    padding:10px;
+    margin:10px;
+
+}
+
+.logol{
+
+      padding:10px;
+    margin:10px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-header {
+    float: none;
+    width:100%;
+  }
+}
+
+.jumbotron h1{
+       font-family: 'quadonmedium';
+
+
+}
+
+.jumbotron h3{
+ padding:50px;
+ margin:50px;
+
+
+}
+
+.jumbotron p{
+      font-family: 'gentonabook';
+      font-size:27px;
+
+
+}
+
+
+.step2.odd{
+       background-color:  #F7941D;
+       height:1000px;
+
+}
+
+.step2.even{
+       background-color:  #F1592A;
+       height:1000px;
+
+}
+
+
+.step2s.odd{
+       background-color:  #F3F3F5;
+       height:200px;
+         padding-top:0px;
+       margin-top:0px;
+}
+
+.step2s.even{
+       background-color:  #D1D2D4;
+       height:200px;
+
+}
+
+
+.step2top {
+    padding-top:0px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right:auto;
+    width:100%;
+    height:auto;
+}
+
+.rows{
+
+      padding-top:0px;
+    margin-top:-19px;
+
+}
+
+
+.banner{
+      height:100px;
+      background-color:  #F5ED30;
+      text-align:center;
+      padding:10px;
+      margin-top:20px;
+
+}
+
+.left1{
+       background-color:  #fff;
+       height:400px;
+}
+
+.right1{
+        background-color:     #C3B59B;
+         height:400px;
+}
+
+
+
+.left2{
+      text-align:center;
+        background-color:  #8CC63E;
+         height:200px;
+}
+
+
+.left2 h2{
+        padding:10px;
+        margin:20px;
+        font-size:30px;
+}
+
+.right2{
+    
+        background-color:  #D91A5D;
+         height:200px;
+}
+
+
+.step3top{
+
+    margin-top:-20px;
+}
+.stepc{
+    background-color: #fff;
+    text-align:center;
+}

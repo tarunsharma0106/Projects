@@ -1,0 +1,50 @@
+﻿@model UF.Models.Test
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Test</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionD)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

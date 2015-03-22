@@ -1,0 +1,90 @@
+﻿@model UF.Models.Test
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Test</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MONEY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MONEY)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.score)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.score)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question5)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question6)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question6)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UFID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UFID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/ng.css" rel="stylesheet" />
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular-animate.min.js"></script>
+    <script src="~/Scripts/app.js"></script>
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/fonts.css" rel="stylesheet" />
+    
+</head>
+
+<body style="background-color: #F7941D; width:100%;">
+
+ 
+
+    <div class="navbar navbar-inverse ">
+        <div >
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Logo", "Index", "Home", null, new { @class = "navbar-brand logol" })
+            </div>
+            @*<div class="navbar-header logo2">
+               
+            </div>*@
+            <div class="navbar-collapse collapse logo3">
+                <ul class="nav navbar-nav" style="padding:10px; margin:10px;">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Test", "Create", "Tests")</li>
+                    <li>@Html.ActionLink("Gators", "Create", "Gators")</li>
+                </ul>
+                @*@Html.Partial("_LoginPartial")*@
+            </div>
+        </div>
+    </div>
+    <div  >
+
+        @RenderBody()
+
+       
+        <footer >
+            <h1>&copy; @DateTime.Now.Year -FOOTER</h1>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    
+</body>
+</html>
